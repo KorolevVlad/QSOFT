@@ -1,0 +1,34 @@
+body {
+    font-family: roboto, sans-serif;
+   
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+}
+
+
+.container {
+    outline: 1px solid red;
+}
+.container-header {
+    max-width: 334px;
+    display: flex;
+  
+    align-items: center;
+    margin: 0 auto;
+  
+   }
+
+
+.open {
+    color: red;
+}
+
+
