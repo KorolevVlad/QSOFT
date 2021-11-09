@@ -12,7 +12,9 @@ body {
 img {
     display: block;
 }
-
+ul {
+    list-style: none;
+}
 
 .container {
     outline: 1px solid red;
@@ -31,4 +33,28 @@ img {
     color: red;
 }
 
+
+
+.container-portfolio {
+    display: block;
+  
+  
+  
+
+  }
+  
+  .container-projects {
+   
+  }
+  
+  .portfolio-projects__link {
+    
+  
+    margin: 0;
+    padding: 0;
+  
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+  }
 
