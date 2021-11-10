@@ -1,116 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <body>
+    <header class="container page-header">
+      <nav class="page-header__logo">
+        <img class="page-header__qsoft" src="./image/logo.png" alt="qsoft" />
+      </nav>
+      <button class="page-header__burger">
+        <img
+          class="page-header__foto-user"
+          src="./image/frame.svg"
+          alt="active user"
+        />
+      </button>
+      <div class="container__header-find">
+        <label class="header-find">
+          <img class="header-find__svg" src="./image/search.svg" alt="find" />
+          <input type="text" class="header-find__text" placeholder="Найти..." />
+        </label>
+      </div>
 
-<body>
-  <header class=" container page-header">
-    <!-- <div class="container page-header"> -->
-    <nav class="page-header__logo">
-      <!-- <a href="./index.html" class="page-header__logo-studio"> -->
+      <div class="header-user">
+        <p class="header-user__name">Константин</p>
+        <img class="header-user__photo" src="./image/user.jpg" alt="user" />
+      </div>
+    </header>
 
+    <main>
+      <section class="container our-partners">
+        <h1 class="our-partners__title">наши партнеры</h1>
+        <ul class="our-partners__table">
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/henkel.png"
+                alt="henkel"
+              />
+            </a>
+          </li>
 
-      <img class="page-header__logo--qsoft" src="./image/logo.png" alt="qsoft">
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/john_deere.png"
+                alt="john_deere"
+              />
+            </a>
+          </li>
 
-    </nav>
-    <button class="page-header__burger">
-      <img class="page-header__foto-user" src="./image/frame.svg" alt="active user">
-      <!-- <svg class="svg" width="24" height="24">
-          <use href="./image/search.svg"></use>
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/mcdonalds.png"
+                alt="mcdonalds"
+              />
+            </a>
+          </li>
 
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/ikea.png"
+                alt="ikea"
+              />
+            </a>
+          </li>
 
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/reebok.png"
+                alt="reebok"
+              />
+            </a>
+          </li>
 
-        </svg> -->
-    </button>
-    <div class="container-find">
-      <label class="header-find">
-        <img class="header-find__svg" src="./image/search.svg" alt="find">
-        <input type="text" class="header-find__text" placeholder="Найти..." />
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/nike.png"
+                alt="nike"
+              />
+            </a>
+          </li>
 
-      </label>
-    </div>
-
-    <div class="user">
-      <p class="user-name">
-        Константин
-      </p>
-      <img class="user-photo" src="./image/user.jpg" alt="user">
-    </div>
-
-    <!-- </div> -->
-
-
-
-  </header>
-
-  <main>
-    <section class="container our-partners">
-      <!-- <div class="container container-partners"> -->
-      <h1 class="our-partners__title">наши партнеры</h1>
-      <ul class="our-partners__table">
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/henkel.png" alt="henkel">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/john_deere.png" alt="john_deere">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/mcdonalds.png" alt="mcdonalds">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/ikea.png" alt="ikea">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/reebok.png" alt="reebok">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-            <img class="our-partners__logo" src="./image/nike.png" alt="nike">
-          </a>
-        </li>
-
-        <li class="our-partners__list">
-          <a href="" class="our-partners__link">
-
-            <img class="our-partners__logo" src="./image/caterpillar.png" alt="caterpillar">
-          </a>
-        </li>
-
-
-
-
-      </ul>
-      <!-- </div> -->
-    </section>
-
-
-  </main>
-
-
-</body>
-
+          <li class="our-partners__list">
+            <a href="" class="our-partners__link">
+              <img
+                class="our-partners__logo"
+                src="./image/caterpillar.png"
+                alt="caterpillar"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
