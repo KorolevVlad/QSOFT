@@ -111,7 +111,7 @@ body {
   border: 1px solid #ebebf1;
   border-radius: 5px;
   cursor: pointer;
-  transition: border-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-find__text:hover,
 .header-find__text:focus {
@@ -209,8 +209,8 @@ body {
   cursor: pointer;
 
   border-radius: 5px;
-  transition: border-color 2500ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 565px) {
